@@ -13,7 +13,6 @@ export default async function NotePage({ params }: any){
 
     const note = await getNote(params.id);
     return(
-        <></>
         <div>
             <h1>Note</h1>
             <div>
